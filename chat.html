@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="chat.css" />
+</head>
+
+<body>
+  <div class="login-container" id='login'>
+    <div class="login-header">Login</div>
+    <div class="login-box">
+      <input type="text" class="input-login" id="input-login" placeholder="Type your Username">
+      <button class="login-button" id="login-button">Log in</button>
+    </div>
+  </div>
+
+  <div class="chat-container" style="display:none;" id='chat'>
+    <div class="chat-header">Chatbot</div>
+    <div class="chat-content" id="chat-content"></div>
+    <div class="chat-footer">
+      <input type="text" class="input-message" id="input-message" name="message" placeholder="Type your message">
+      <button class="send-button" id="send-button">Send</button>
+    </div>
+  </div>
+  <script src="chat.js"></script>
+</body>
+
+</html>
